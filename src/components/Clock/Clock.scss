@@ -1,0 +1,61 @@
+.clock {
+    position: relative;
+    
+    &_container {
+        display: flex;
+        align-items: center;
+
+        & svg {
+            font-size: 25px;
+        }
+
+        & p {
+            font-size: 30px;
+            font-weight: 300;
+            text-transform: uppercase;
+            padding: 0 10px;
+        }
+    }
+
+    &_timezone {
+        display: flex;
+        align-items: center;
+
+        & h2 {
+            font-size: 150px;
+        }
+
+        & p {
+            font-size: 50px;
+            font-weight: 300;
+            padding: 20px;
+        }
+    }
+
+    & > h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    &_location {
+        display: flex;
+        align-items: center;
+        margin: auto;
+
+        & button {
+            border: none;
+            background: #fff;
+            outline: none;
+            border-radius: 20px;
+            height: 60px;
+            width: 100px;
+            cursor: pointer;
+        }
+
+        & svg {
+            fill: #000;
+            padding-top: 5px;
+        }
+    }
+
+}
